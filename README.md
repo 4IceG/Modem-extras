@@ -3,10 +3,10 @@
 
 ## <img src="https://raw.githubusercontent.com/4IceG/Personal_data/master/dooffy_design_icons_EU_flags_United_Kingdom.png" height="32"> What You Should Know / <img src="https://raw.githubusercontent.com/4IceG/Personal_data/master/dooffy_design_icons_EU_flags_Poland.png" height="32"> Co powinieneś wiedzieć
 > The sms-tool package is not available in the OpenWrt repository (waiting to be added). 
-> If you do not have an image from forum eko.one.pl you have to compile the package manually.
+> If you do not have an image from forum eko.one.pl you have to compile the package.
 
 > Pakiet sms-tool nie jest dostępny w repozytorium OpenWrt (czeka na dodanie).
-> Jeśli nie posiadasz obrazu z forum eko.one.pl musisz skompilować pakiet ręcznie.
+> Jeśli nie posiadasz obrazu z forum eko.one.pl musisz skompilować pakiet.
 
 ### <img src="https://raw.githubusercontent.com/4IceG/Personal_data/master/dooffy_design_icons_EU_flags_United_Kingdom.png" height="24"> To install packages from my repository:
 
