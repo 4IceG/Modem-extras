@@ -14,6 +14,14 @@
 ``` bash
 src/gz IceG_repo https://github.com/4IceG/Modem-extras/raw/main/myrepo
 ```
+<details>
+   <summary>Pokaż | Show me</summary>
+   
+![](https://github.com/4IceG/Personal_data/blob/master/repo1.PNG?raw=true)
+![](https://github.com/4IceG/Personal_data/blob/master/repo2.png?raw=true)
+
+</details>
+
 2) Add repository public key with commands:
 ``` bash
 wget https://github.com/4IceG/Modem-extras/raw/main/myrepo/IceG-repo.pub -O /tmp/IceG-repo.pub
@@ -30,6 +38,15 @@ opkg update
 ``` bash
 src/gz IceG_repo https://github.com/4IceG/Modem-extras/raw/main/myrepo
 ```
+
+<details>
+   <summary>Pokaż | Show me</summary>
+   
+![](https://github.com/4IceG/Personal_data/blob/master/repo1.PNG?raw=true)
+![](https://github.com/4IceG/Personal_data/blob/master/repo2.png?raw=true)
+
+</details>
+
 2) Dodać klucz publiczny repozytorium za pomoca poleceń:
 ``` bash
 wget https://github.com/4IceG/Modem-extras/raw/main/myrepo/IceG-repo.pub -O /tmp/IceG-repo.pub
