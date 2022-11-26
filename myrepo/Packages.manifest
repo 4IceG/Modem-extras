@@ -1,0 +1,373 @@
+Package: adb
+Version: android.5.0.2_r1-3
+Depends: libc, zlib, libopenssl1.1, libpthread
+Source: package/utils/adb
+SourceName: adb
+Section: utils
+SourceDateEpoch: 1577056927
+Maintainer: Henryk Heisig <hyniu@o2.pl>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 57338
+Filename: adb_android.5.0.2_r1-3_arm_cortex-a7_neon-vfpv4.ipk
+Size: 58035
+SHA256sum: 4401d1dfbebc020d2558b436da378b5f33a50a8381fee23e13914c853db32b85
+Description:  Android Debug Bridge (adb) is a versatile command line tool that lets you communicate with an emulator instance or connected Android-powered device.
+
+Package: atinout
+Version: 0.9.1
+Depends: libc
+Source: package/atinout
+SourceName: atinout
+License: GPLv2
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1666333834
+Maintainer: Adrian Guenter <a@gntr.me>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 3063
+Filename: atinout_0.9.1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 3821
+SHA256sum: e97426e4ae0f267a09dd9f764ffefdabe8cbe7296c125db61c2a6ca26ba30f0a
+Description:  Atinout is a program that will execute AT commands in sequence and
+ capture the response from the modem.
+
+Package: ekooneplstat
+Version: 20150706
+Depends: libc
+Source: package/ekooneplstat
+SourceName: ekooneplstat
+Section: utils
+SourceDateEpoch: 1666333834
+Architecture: all
+Installed-Size: 1123
+Filename: ekooneplstat_20150706_all.ipk
+Size: 1795
+SHA256sum: 8df7e333f36f7e96a2da9253d5ae3155a35fe3cebaa2748d9a716582999124c4
+Description:  eko.one.pl Services
+
+Package: luci-app-3ginfo-lite
+Version: 1.0.31-20221121
+Depends: libc, sms-tool, comgt
+Source: package/luci-app-3ginfo-lite
+SourceName: luci-app-3ginfo-lite
+Section: luci
+SourceDateEpoch: 1666333834
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 101608
+Filename: luci-app-3ginfo-lite_1.0.31-20221121_all.ipk
+Size: 102418
+SHA256sum: bd64065a7adba0ad2634753fd3d603df8e6532e11fc964b7c52b5d78707ebeea
+Description:  Luci interface for the 3ginfo-lite. The package allows you to view the parameters of the mobile internet connection.
+
+Package: luci-app-atinout-mod
+Version: 1.3.3-20220817
+Depends: libc, atinout, luci-compat, luci-lua-runtime
+Source: package/luci-app-atinout-mod
+SourceName: luci-app-atinout-mod
+Section: luci
+SourceDateEpoch: 1666333834
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 3832
+Filename: luci-app-atinout-mod_1.3.3-20220817_all.ipk
+Size: 4653
+SHA256sum: 4ecf497dc48db30ffc45044485aae184eb6e6cd827da221df4e805d5699c7151
+Description:  Web UI for atinout
+
+Package: luci-app-cpu-status-mini
+Version: 0.1-4
+Depends: libc, luci-mod-admin-full
+Source: package/luci-app-cpu-status-mini
+SourceName: luci-app-cpu-status-mini
+License: MIT
+Section: luci
+SourceDateEpoch: 1666333834
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 1077
+Filename: luci-app-cpu-status-mini_0.1-4_all.ipk
+Size: 1937
+SHA256sum: b2531e224a33a90394474628c8500003a0eddfcabd52cf32af6e4adef9e9324f
+Description:  CPU utilization info for the LuCI status page
+
+Package: luci-app-ekooneplstat
+Version: 20220729
+Depends: libc, ekooneplstat
+Source: package/luci-app-ekooneplstat
+SourceName: luci-app-ekooneplstat
+Section: opt
+SourceDateEpoch: 1666333834
+Maintainer: Cezary Jackiewicz <cezary@eko.one.pl>
+Architecture: all
+Installed-Size: 1973
+Filename: luci-app-ekooneplstat_20220729_all.ipk
+Size: 2794
+SHA256sum: a51907b8b9b90b36c65024f84a60bbee0ebcba58cade58cdd94c47399e445815
+Description:  LuCI Support for eko.one.pl Services
+
+Package: luci-app-internet-detector
+Version: unknown
+Depends: libc, luci-mod-admin-full
+Source: package/luci-app-internet-detector
+SourceName: luci-app-internet-detector
+License: MIT
+Section: luci
+SourceDateEpoch: 1666333834
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 912
+Filename: luci-app-internet-detector_unknown_all.ipk
+Size: 1768
+SHA256sum: 0bb422bdd3deb9b3a35c62528fb61c8ad5689bdb27c93bbc63398d801492e0b3
+Description:  Internet detector for the LuCI status page
+
+Package: luci-app-ledcontrol
+Version: 1.0.0-20221119
+Depends: libc, adb, sms-tool
+Source: package/luci-app-ledcontrol
+SourceName: luci-app-ledcontrol
+Section: luci
+SourceDateEpoch: 1666333834
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 3091
+Filename: luci-app-ledcontrol_1.0.0-20221119_all.ipk
+Size: 3959
+SHA256sum: fdaa528cb36f4f53e7f4b79a21ab8674d7692a661769e7cbaa65d909a8f1da27
+Description:  Luci interface for the LED control. The package allows you to control the LEDs by creating a schedule for switching off/on.
+
+Package: luci-app-lite-watchdog
+Version: 1.0.4-20221121
+Depends: libc, sms-tool
+Source: package/luci-app-lite-watchdog
+SourceName: luci-app-lite-watchdog
+Section: luci
+SourceDateEpoch: 1666333834
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 4553
+Filename: luci-app-lite-watchdog_1.0.4-20221121_all.ipk
+Size: 5386
+SHA256sum: d53d14a138227c3488d39661c33c82b11374858e325a463797158d7c0b7f9889
+Description:  Luci interface for the lite-watchdog scripts.
+
+Package: luci-app-modemband
+Version: 1.0.16-20221121
+Depends: libc, sms-tool, modemband
+Source: package/luci-app-modemband
+SourceName: luci-app-modemband
+Section: luci
+SourceDateEpoch: 1666333834
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 5406
+Filename: luci-app-modemband_1.0.16-20221121_all.ipk
+Size: 6237
+SHA256sum: 4f32ae4759b1fade10d0e6c2b22d42ad782b15e3c12add7ab6987a3c707094be
+Description:  Luci interface for the modemband. The package allows set LTE bands for selected 4G modems.
+
+Package: luci-app-sms-tool
+Version: 1.9.5-20221121
+Depends: libc, sms-tool, kmod-usb-serial, kmod-usb-serial-option, comgt, luci-compat, luci-lua-runtime
+Source: package/luci-app-sms-tool
+SourceName: luci-app-sms-tool
+Section: luci
+SourceDateEpoch: 1666333834
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 21108
+Filename: luci-app-sms-tool_1.9.5-20221121_all.ipk
+Size: 22024
+SHA256sum: 311be66d5e6d5f6960b3472ddb47de857f13563fe83eed3bc8a19c8e2b8db5e3
+Description:  Luci interface for the sms_tool. The user interface supports SMS/USSD Codes/AT Commands.
+
+Package: luci-app-wrtbwmon
+Version: 2.0.10
+Depends: libc, wrtbwmon
+Source: package/luci-app-wrtbwmon
+SourceName: luci-app-wrtbwmon
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1666333834
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 8206
+Filename: luci-app-wrtbwmon_2.0.10_all.ipk
+Size: 9089
+SHA256sum: 74b7e3c9713c4554cc61323e74d189f6345921c1b7b0de7b517074ce63217f78
+Description:  A Luci module that uses wrtbwmon to track bandwidth usage
+
+Package: luci-i18n-3ginfo-lite-pl
+Version: unknown
+Depends: libc, luci-app-3ginfo-lite
+Source: package/luci-app-3ginfo-lite
+SourceName: luci-i18n-3ginfo-lite-pl
+Section: luci
+SourceDateEpoch: 1666333834
+Architecture: all
+Installed-Size: 1560
+Filename: luci-i18n-3ginfo-lite-pl_unknown_all.ipk
+Size: 2349
+SHA256sum: 966204423b4dae856c6589346ce2f10f85877bb78b8649632a9c66b590a2ee41
+Description:  Translation for luci-app-3ginfo-lite - Polski (Polish)
+
+Package: luci-i18n-atinout-mod-pl
+Version: unknown
+Depends: libc, luci-app-atinout-mod
+Source: package/luci-app-atinout-mod
+SourceName: luci-i18n-atinout-mod-pl
+Section: luci
+SourceDateEpoch: 1666333834
+Architecture: all
+Installed-Size: 826
+Filename: luci-i18n-atinout-mod-pl_unknown_all.ipk
+Size: 1606
+SHA256sum: fde1c4c22792e651db6c2da92a43c9f681ac48b00ccb4ac1b512cc4d75cff0e9
+Description:  Translation for luci-app-atinout-mod - Polski (Polish)
+
+Package: luci-i18n-cpu-status-mini-pl
+Version: unknown
+Depends: libc, luci-app-cpu-status-mini
+Source: package/luci-app-cpu-status-mini
+SourceName: luci-i18n-cpu-status-mini-pl
+License: MIT
+Section: luci
+SourceDateEpoch: 1666333834
+Architecture: all
+Installed-Size: 437
+Filename: luci-i18n-cpu-status-mini-pl_unknown_all.ipk
+Size: 1228
+SHA256sum: 11e8d5ef375b58e586c93ffc2d60a58c14d381efd3b93747b7ffc35a05fbc9f2
+Description:  Translation for luci-app-cpu-status-mini - Polski (Polish)
+
+Package: luci-i18n-internet-detector-pl
+Version: unknown
+Depends: libc, luci-app-internet-detector
+Source: package/luci-app-internet-detector
+SourceName: luci-i18n-internet-detector-pl
+License: MIT
+Section: luci
+SourceDateEpoch: 1666333834
+Architecture: all
+Installed-Size: 436
+Filename: luci-i18n-internet-detector-pl_unknown_all.ipk
+Size: 1224
+SHA256sum: 1f3e61fc62b9ae3c7d5a8f36e564cf0163c67fa4a4f46340964cd915b073f554
+Description:  Translation for luci-app-internet-detector - Polski (Polish)
+
+Package: luci-i18n-ledcontrol-pl
+Version: unknown
+Depends: libc, luci-app-ledcontrol
+Source: package/luci-app-ledcontrol
+SourceName: luci-i18n-ledcontrol-pl
+Section: luci
+SourceDateEpoch: 1666333834
+Architecture: all
+Installed-Size: 1002
+Filename: luci-i18n-ledcontrol-pl_unknown_all.ipk
+Size: 1778
+SHA256sum: e6e39a353c77bcf36ad0c9be11f11ec9f510a82a5a2e2a849679b160eb21709d
+Description:  Translation for luci-app-ledcontrol - Polski (Polish)
+
+Package: luci-i18n-lite-watchdog-pl
+Version: unknown
+Depends: libc, luci-app-lite-watchdog
+Source: package/luci-app-lite-watchdog
+SourceName: luci-i18n-lite-watchdog-pl
+Section: luci
+SourceDateEpoch: 1666333834
+Architecture: all
+Installed-Size: 1321
+Filename: luci-i18n-lite-watchdog-pl_unknown_all.ipk
+Size: 2111
+SHA256sum: 9a18d1c3d9822618b4b29beee118d8409736ecf8faed88245d9f8a018658ce02
+Description:  Translation for luci-app-lite-watchdog - Polski (Polish)
+
+Package: luci-i18n-modemband-pl
+Version: unknown
+Depends: libc, luci-app-modemband
+Source: package/luci-app-modemband
+SourceName: luci-i18n-modemband-pl
+Section: luci
+SourceDateEpoch: 1666333834
+Architecture: all
+Installed-Size: 1958
+Filename: luci-i18n-modemband-pl_unknown_all.ipk
+Size: 2745
+SHA256sum: de18b515b3d3ea88d271c6f9c037a90b02f4d1b3fb45290335ca418ca80796e9
+Description:  Translation for luci-app-modemband - Polski (Polish)
+
+Package: luci-i18n-sms-tool-pl
+Version: unknown
+Depends: libc, luci-app-sms-tool
+Source: package/luci-app-sms-tool
+SourceName: luci-i18n-sms-tool-pl
+Section: luci
+SourceDateEpoch: 1666333834
+Architecture: all
+Installed-Size: 3012
+Filename: luci-i18n-sms-tool-pl_unknown_all.ipk
+Size: 3767
+SHA256sum: aae95f6c05614e24a007fb3cd1dc8603b98d243ecd26a3fde26367a60a4e9c86
+Description:  Translation for luci-app-sms-tool - Polski (Polish)
+
+Package: luci-i18n-wrtbwmon-pl
+Version: unknown
+Depends: libc, luci-app-wrtbwmon
+Source: package/luci-app-wrtbwmon
+SourceName: luci-i18n-wrtbwmon-pl
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1666333834
+Architecture: all
+Installed-Size: 1610
+Filename: luci-i18n-wrtbwmon-pl_unknown_all.ipk
+Size: 2415
+SHA256sum: efc3a2d3f4005b2f5bfae9afb16263b4d2295d79b3eb09cf0a4a79c6f4faa60d
+Description:  Translation for luci-app-wrtbwmon - Polski (Polish)
+
+Package: modemband
+Version: 20221109
+Depends: libc, sms-tool
+Source: package/modemband
+SourceName: modemband
+Section: net
+SourceDateEpoch: 1666333834
+Maintainer: Cezary Jackiewicz <cezary@eko.one.pl>
+Architecture: all
+Installed-Size: 4447
+Filename: modemband_20221109_all.ipk
+Size: 5143
+SHA256sum: 83f351c045442eae0c9975add11da724c5850a7fc3d2a1f31af7b126fe2dcc8d
+Description:  Setting LTE bands for selected modems
+
+Package: sysinfo
+Version: 20210313
+Depends: libc
+Source: package/sysinfo
+SourceName: sysinfo
+Section: utils
+SourceDateEpoch: 1666333834
+Architecture: all
+Installed-Size: 1706
+Filename: sysinfo_20210313_all.ipk
+Size: 2397
+SHA256sum: d7055265a9858a2d66d8147283ed75cc494f77285749d58cd86ffa52858712df
+Description:  eko.one.pl Services
+
+Package: wrtbwmon
+Version: 1.2.1-3
+Depends: libc, iptables
+Source: package/wrtbwmon
+SourceName: wrtbwmon
+Section: net
+SourceDateEpoch: 1666333834
+Architecture: all
+Installed-Size: 7179
+Filename: wrtbwmon_1.2.1-3_all.ipk
+Size: 7936
+SHA256sum: dcc246486ce2024a396e8a8649c587d542e98cf1bfe7d4fff03560933f217f9c
+Description:  An CERNET client daemon,
+ Most usually used in China collages.
+
