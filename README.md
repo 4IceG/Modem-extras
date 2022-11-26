@@ -3,11 +3,9 @@
 ![GitHub stars](https://img.shields.io/github/stars/4IceG/Modem-extras?style=flat-square)
 
 ## <img src="https://raw.githubusercontent.com/4IceG/Personal_data/master/dooffy_design_icons_EU_flags_United_Kingdom.png" height="24"> What You Should Know / <img src="https://raw.githubusercontent.com/4IceG/Personal_data/master/dooffy_design_icons_EU_flags_Poland.png" height="24"> Co powinieneś wiedzieć
-> The sms-tool package is not available in the OpenWrt repository (waiting to be added). 
-> If you do not have an image from forum eko.one.pl you have to compile the package.
+> The sms-tool package is available in the OpenWrt Master repository. 
 
-> Pakiet sms-tool nie jest dostępny w repozytorium OpenWrt (czeka na dodanie).
-> Jeśli nie posiadasz obrazu z forum eko.one.pl musisz skompilować pakiet.
+> Pakiet sms-tool jest dostępny w repozytorium OpenWrt Master.
 
 ### <img src="https://raw.githubusercontent.com/4IceG/Personal_data/master/dooffy_design_icons_EU_flags_United_Kingdom.png" height="24"> To install packages from my repository:
 
