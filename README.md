@@ -14,7 +14,7 @@
 src/gz IceG_repo https://github.com/4IceG/Modem-extras/raw/main/myrepo
 ```
 <details>
-   <summary>Pokaż jak to zrobić | Show me how</summary>
+   <summary>Show me how</summary>
    
 ![](https://github.com/4IceG/Personal_data/blob/master/repo1.PNG?raw=true)
 ![](https://github.com/4IceG/Personal_data/blob/master/repo2.png?raw=true)
@@ -39,7 +39,7 @@ src/gz IceG_repo https://github.com/4IceG/Modem-extras/raw/main/myrepo
 ```
 
 <details>
-   <summary>Pokaż jak to zrobić | Show me how</summary>
+   <summary>Pokaż jak to zrobić</summary>
    
 ![](https://github.com/4IceG/Personal_data/blob/master/repo1.PNG?raw=true)
 ![](https://github.com/4IceG/Personal_data/blob/master/repo2.png?raw=true)
