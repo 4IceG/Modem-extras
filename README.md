@@ -9,7 +9,7 @@
 
 ### <img src="https://raw.githubusercontent.com/4IceG/Personal_data/master/dooffy_design_icons_EU_flags_United_Kingdom.png" height="24"> To install packages from my repository:
 
-1) Add the following entry to the /etc/opkg/customfeeds.conf file to the OpenWrt router:
+Step 1) Add the following entry to the /etc/opkg/customfeeds.conf file to the OpenWrt router:
 ``` bash
 src/gz IceG_repo https://github.com/4IceG/Modem-extras/raw/main/myrepo
 ```
@@ -21,19 +21,19 @@ src/gz IceG_repo https://github.com/4IceG/Modem-extras/raw/main/myrepo
 
 </details>
 
-2) Add repository public key with commands:
+Step 2) Add repository public key with commands:
 ``` bash
 wget https://github.com/4IceG/Modem-extras/raw/main/myrepo/IceG-repo.pub -O /tmp/IceG-repo.pub
 opkg-key add /tmp/IceG-repo.pub
 ```
-3) Execute the command:
+Step 3) Execute the command:
 ``` bash
 opkg update
 ```
 
 ### <img src="https://raw.githubusercontent.com/4IceG/Personal_data/master/dooffy_design_icons_EU_flags_Poland.png" height="24"> Aby móc instalować pakiety z mojego repozytorium należy: 
 
-1) Do routera z OpenWrt dodać do pliku /etc/opkg/customfeeds.conf następujący wpis:
+Krok 1) Do routera z OpenWrt dodać do pliku /etc/opkg/customfeeds.conf następujący wpis:
 ``` bash
 src/gz IceG_repo https://github.com/4IceG/Modem-extras/raw/main/myrepo
 ```
@@ -46,12 +46,12 @@ src/gz IceG_repo https://github.com/4IceG/Modem-extras/raw/main/myrepo
 
 </details>
 
-2) Dodać klucz publiczny repozytorium za pomoca poleceń:
+Krok 2) Dodać klucz publiczny repozytorium za pomoca poleceń:
 ``` bash
 wget https://github.com/4IceG/Modem-extras/raw/main/myrepo/IceG-repo.pub -O /tmp/IceG-repo.pub
 opkg-key add /tmp/IceG-repo.pub
 ```
-3) Wykonać polecenie:
+Krok 3) Wykonać polecenie:
 ``` bash
 opkg update
 ```
