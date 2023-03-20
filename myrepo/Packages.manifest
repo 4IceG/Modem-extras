@@ -1,0 +1,189 @@
+Package: luci-app-3ginfo-lite
+Version: 1.0.38-20230320
+Depends: libc, sms-tool, comgt
+Source: package/luci-app-3ginfo-lite
+SourceName: luci-app-3ginfo-lite
+Section: luci
+SourceDateEpoch: 1662223741
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 115937
+Filename: luci-app-3ginfo-lite_1.0.38-20230320_all.ipk
+Size: 116807
+SHA256sum: 52ffe0de55980534a6acdcfd7535f4a1a543dc79ee888680b7217910f4bf6d0d
+Description:  LuCI JS interface for the 3ginfo-lite. The package allows you to view the parameters of the mobile internet connection.
+
+Package: luci-app-atcommands
+Version: 1.0.3-20230106
+Depends: libc, sms-tool
+Source: package/luci-app-atcommands
+SourceName: luci-app-atcommands
+Section: luci
+SourceDateEpoch: 1662223741
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 3026
+Filename: luci-app-atcommands_1.0.3-20230106_all.ipk
+Size: 3918
+SHA256sum: 411677c7bea6fe406c713ae4b33d69224224063af18ff1c9835e2092b9dcd3a4
+Description:  LuCI JS interface for the sms-tool. The user interface supports only AT commands.
+
+Package: luci-app-lite-watchdog
+Version: 1.0.7-20230320
+Depends: libc, sms-tool
+Source: package/luci-app-lite-watchdog
+SourceName: luci-app-lite-watchdog
+Section: luci
+SourceDateEpoch: 1662223741
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 7065
+Filename: luci-app-lite-watchdog_1.0.7-20230320_all.ipk
+Size: 7948
+SHA256sum: 3dee6427d01be4511c96ebd2960d1765a4d988bd4a3302898681762928c2ad7a
+Description:  LuCI JS interface for the lite-watchdog scripts.
+
+Package: luci-app-modemband
+Version: 1.0.17-20230223
+Depends: libc, sms-tool, modemband
+Source: package/luci-app-modemband
+SourceName: luci-app-modemband
+Section: luci
+SourceDateEpoch: 1662223741
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 5799
+Filename: luci-app-modemband_1.0.17-20230223_all.ipk
+Size: 6651
+SHA256sum: 5c58cc1a1286bba2b921ccb0340a252c429f04304fc6267fd04c55b89143a37d
+Description:  LuCI JS interface for the modemband. The package allows set LTE bands for selected 4G/5G modems.
+
+Package: luci-app-sms-tool
+Version: 1.9.5-20221207
+Depends: libc, sms-tool, kmod-usb-serial, kmod-usb-serial-option, comgt
+Source: package/luci-app-sms-tool
+SourceName: luci-app-sms-tool
+Section: luci
+SourceDateEpoch: 1662223741
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 21139
+Filename: luci-app-sms-tool_1.9.5-20221207_all.ipk
+Size: 22049
+SHA256sum: 6e3cf4b6b7b8ccbc2fd5139dee58f6e4102fda7a1fed7e82cbc621ba7581aab4
+Description:  LuCI interface for the sms-tool. The user interface supports SMS/USSD Codes/AT Commands.
+
+Package: luci-app-sms-tool-js
+Version: 2.0.6-20230223
+Depends: libc, sms-tool, kmod-usb-serial, kmod-usb-serial-option, comgt
+Source: package/luci-app-sms-tool-js
+SourceName: luci-app-sms-tool-js
+Section: luci
+SourceDateEpoch: 1662223741
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 21011
+Filename: luci-app-sms-tool-js_2.0.6-20230223_all.ipk
+Size: 22001
+SHA256sum: 86ba51f5587ca933a2a36ba46e66f6aa47803bdeb49bc52565c266ca80d4c698
+Description:  LuCI JS interface for the sms-tool. The user interface supports SMS/USSD Codes/AT Commands.
+
+Package: luci-i18n-3ginfo-lite-pl
+Version: 230301.44962
+Depends: libc, luci-app-3ginfo-lite
+Source: package/luci-app-3ginfo-lite
+SourceName: luci-i18n-3ginfo-lite-pl
+Section: luci
+SourceDateEpoch: 1662223741
+Architecture: all
+Installed-Size: 2022
+Filename: luci-i18n-3ginfo-lite-pl_230301.44962_all.ipk
+Size: 2836
+SHA256sum: a782abf37d73ddfe242eab7d317963f7de997a09b44dbd1f673cedc72b0b2d54
+Description:  Translation for luci-app-3ginfo-lite - Polski (Polish)
+
+Package: luci-i18n-atcommands-pl
+Version: 230316.69362
+Depends: libc, luci-app-atcommands
+Source: package/luci-app-atcommands
+SourceName: luci-i18n-atcommands-pl
+Section: luci
+SourceDateEpoch: 1662223741
+Architecture: all
+Installed-Size: 983
+Filename: luci-i18n-atcommands-pl_230316.69362_all.ipk
+Size: 1786
+SHA256sum: 7514534429ff95a4a95692bc7366b8c2e6bdba96acbbc78e00363df11cdb106f
+Description:  Translation for luci-app-atcommands - Polski (Polish)
+
+Package: luci-i18n-lite-watchdog-pl
+Version: 230318.25280
+Depends: libc, luci-app-lite-watchdog
+Source: package/luci-app-lite-watchdog
+SourceName: luci-i18n-lite-watchdog-pl
+Section: luci
+SourceDateEpoch: 1662223741
+Architecture: all
+Installed-Size: 1807
+Filename: luci-i18n-lite-watchdog-pl_230318.25280_all.ipk
+Size: 2620
+SHA256sum: e1b7eb26af0330830a0210e4e98124c5270fe5b89dd5ca214102b5ae81dd7c7c
+Description:  Translation for luci-app-lite-watchdog - Polski (Polish)
+
+Package: luci-i18n-modemband-pl
+Version: 230222.67857
+Depends: libc, luci-app-modemband
+Source: package/luci-app-modemband
+SourceName: luci-i18n-modemband-pl
+Section: luci
+SourceDateEpoch: 1662223741
+Architecture: all
+Installed-Size: 2069
+Filename: luci-i18n-modemband-pl_230222.67857_all.ipk
+Size: 2873
+SHA256sum: c2a4eb03dfd78c119f3cd6cf5d48d065bb8362f63f57d118bbe4d6f500dd29b9
+Description:  Translation for luci-app-modemband - Polski (Polish)
+
+Package: luci-i18n-sms-tool-js-pl
+Version: 230223.68359
+Depends: libc, luci-app-sms-tool-js
+Source: package/luci-app-sms-tool-js
+SourceName: luci-i18n-sms-tool-js-pl
+Section: luci
+SourceDateEpoch: 1662223741
+Architecture: all
+Installed-Size: 3662
+Filename: luci-i18n-sms-tool-js-pl_230223.68359_all.ipk
+Size: 4450
+SHA256sum: ada780aa41ec3239c59976a65ccefdc94473c6ff131108e0bb4e87abd3b820c1
+Description:  Translation for luci-app-sms-tool-js - Polski (Polish)
+
+Package: luci-i18n-sms-tool-pl
+Version: 220403.61114
+Depends: libc, luci-app-sms-tool
+Source: package/luci-app-sms-tool
+SourceName: luci-i18n-sms-tool-pl
+Section: luci
+SourceDateEpoch: 1662223741
+Architecture: all
+Installed-Size: 3015
+Filename: luci-i18n-sms-tool-pl_220403.61114_all.ipk
+Size: 3791
+SHA256sum: 641f4bef26542f906236598063b6f3b5a56b8ebf44589a7c7c0b0f7495d9c77c
+Description:  Translation for luci-app-sms-tool - Polski (Polish)
+
+Package: modemband
+Version: 20230302
+Depends: libc, sms-tool
+Source: package/modemband
+SourceName: modemband
+Section: net
+SourceDateEpoch: 1662223741
+Maintainer: Cezary Jackiewicz <cezary@eko.one.pl>
+Architecture: all
+Installed-Size: 4566
+Filename: modemband_20230302_all.ipk
+Size: 5282
+SHA256sum: 7c87bfa991319dcf79c6948d3a893834a206a0983871e065b19e084012866ac7
+Description:  Setting LTE bands for selected modems
+
