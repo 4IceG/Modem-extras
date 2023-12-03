@@ -38,6 +38,15 @@
       ```
 
 ### <img src="https://raw.githubusercontent.com/4IceG/Personal_data/master/dooffy_design_icons_EU_flags_Poland.png" height="24"> Aby móc instalować pakiety z mojego repozytorium należy: 
+#### Metoda 1. 
+Wykonaj te polecenia na routerze z OpenWrt:
+  ```
+  grep -q IceG_repo /etc/opkg/customfeeds.conf || echo 'src/gz IceG_repo https://github.com/4IceG/Modem-extras/raw/main/myrepo' >> /etc/opkg/customfeeds.conf
+  wget https://github.com/4IceG/Modem-extras/raw/main/myrepo/IceG-repo.pub -O /tmp/IceG-repo.pub
+  opkg-key add /tmp/IceG-repo.pub
+  opkg update
+  ```
+#### Metoda 2. (Wykonujemy powyższe polecenia ręcznie, ale krok po kroku, polecenie po poleceniu):
 
 Krok 1. Do routera z OpenWrt dodać do pliku /etc/opkg/customfeeds.conf następujący wpis:
 ``` bash
