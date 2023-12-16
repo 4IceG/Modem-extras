@@ -1,0 +1,165 @@
+Package: luci-app-3ginfo-lite
+Version: 1.0.60-20231204
+Depends: libc, sms-tool, comgt, kmod-usb-serial-option
+Section: luci
+Architecture: all
+Installed-Size: 90824
+Filename: luci-app-3ginfo-lite_1.0.60-20231204_all.ipk
+Size: 91658
+SHA256sum: f9183485d2444cbd42fc26f014325bbb1adaca5beddacf879dd323cba668dcbe
+Description:  LuCI JS interface for the 3ginfo-lite. The package allows you to view the parameters of the mobile internet connection.
+
+Package: luci-app-atcommands
+Version: 1.0.7-20231008
+Depends: libc, sms-tool
+Section: luci
+Architecture: all
+Installed-Size: 3096
+Filename: luci-app-atcommands_1.0.7-20231008_all.ipk
+Size: 3990
+SHA256sum: 8cca10ace2f2c0b0b31423c4a23f1f06528aa261741250cde8ca63093115a674
+Description:  LuCI JS interface for the sms-tool. The user interface supports only AT commands.
+
+Package: luci-app-lite-watchdog
+Version: 1.0.13-20231207
+Depends: libc, sms-tool, kmod-usb-serial, kmod-usb-serial-option, comgt
+Section: luci
+Architecture: all
+Installed-Size: 7965
+Filename: luci-app-lite-watchdog_1.0.13-20231207_all.ipk
+Size: 8898
+SHA256sum: ed92044cade2a3f244b74584624a918b017148f6b0c9d4204e123e87bd31ed1d
+Description:  LuCI JS interface for the lite-watchdog scripts.
+
+Package: luci-app-modemband
+Version: 1.0.23-20231215
+Depends: libc, sms-tool, modemband
+Section: luci
+Architecture: all
+Installed-Size: 6556
+Filename: luci-app-modemband_1.0.23-20231215_all.ipk
+Size: 7451
+SHA256sum: 279f8c09d0090ec6aa640bc94cd19f78bc1d9d72453bdacf4b223ba8f5b61c78
+Description:  LuCI JS interface for the modemband. The package allows set LTE/5G bands for selected 4G/5G modems.
+
+Package: luci-app-modemdefine
+Version: 1.0.5-20231008
+Depends: libc
+Section: luci
+Architecture: all
+Installed-Size: 2605
+Filename: luci-app-modemdefine_1.0.5-20231008_all.ipk
+Size: 3569
+SHA256sum: 1076d28878c1c7f270e895c9ec576ca7a0730a2af4942b01cf480d02826854dc
+Description:  LuCI JS interface to define the available modems. The list of modems will make it easier for the user to switch between modems in other LuCI applications.
+
+Package: luci-app-sms-tool
+Version: 1.9.6-20230501
+Depends: libc, sms-tool, kmod-usb-serial, kmod-usb-serial-option, comgt
+Section: luci
+Architecture: all
+Installed-Size: 21570
+Filename: luci-app-sms-tool_1.9.6-20230501_all.ipk
+Size: 22490
+SHA256sum: 77d552d0917b91d7d9a1e81e39fb8a38d64d6d2306bcead979cde5ee383cfe71
+Description:  LuCI interface for the sms-tool. The user interface supports SMS/USSD Codes/AT Commands.
+
+Package: luci-app-sms-tool-js
+Version: 2.0.18-20231008
+Depends: libc, sms-tool, kmod-usb-serial, kmod-usb-serial-option, comgt
+Section: luci
+Architecture: all
+Installed-Size: 22711
+Filename: luci-app-sms-tool-js_2.0.18-20231008_all.ipk
+Size: 23695
+SHA256sum: e4d4f377c2bef0cc0e75a9d9daef59f36b88c81ff0dfe13b5a8c55a9c4d609e7
+Description:  LuCI JS interface for the sms-tool. The user interface supports SMS / USSD Codes / AT Commands.
+
+Package: luci-i18n-3ginfo-lite-pl
+Version: 230704.29116
+Depends: libc, luci-app-3ginfo-lite
+Section: luci
+Architecture: all
+Installed-Size: 2097
+Filename: luci-i18n-3ginfo-lite-pl_230704.29116_all.ipk
+Size: 2907
+SHA256sum: e03b9513d9a96d237e2c919c142b16b5c5088905ad037d546b87f6d8ae0f1153
+Description:  Translation for luci-app-3ginfo-lite - Polski (Polish)
+
+Package: luci-i18n-atcommands-pl
+Version: 230325.84939
+Depends: libc, luci-app-atcommands
+Section: luci
+Architecture: all
+Installed-Size: 994
+Filename: luci-i18n-atcommands-pl_230325.84939_all.ipk
+Size: 1795
+SHA256sum: f7f3f7bcb5fd2039e2c8f98f2d1cda3375d2364748d12d8cfb7db9852e04d44a
+Description:  Translation for luci-app-atcommands - Polski (Polish)
+
+Package: luci-i18n-lite-watchdog-pl
+Version: 231019.67195
+Depends: libc, luci-app-lite-watchdog
+Section: luci
+Architecture: all
+Installed-Size: 1976
+Filename: luci-i18n-lite-watchdog-pl_231019.67195_all.ipk
+Size: 2790
+SHA256sum: 4e89ae40196849744d19558f7bc86fb184575ae72e1b4bf1490072fbee4f3cb5
+Description:  Translation for luci-app-lite-watchdog - Polski (Polish)
+
+Package: luci-i18n-modemband-pl
+Version: 231214.35288
+Depends: libc, luci-app-modemband
+Section: luci
+Architecture: all
+Installed-Size: 2416
+Filename: luci-i18n-modemband-pl_231214.35288_all.ipk
+Size: 3187
+SHA256sum: d4e9a0e5d175ee117eb5d4d497528455c6afff3a67af9f47386cfd3adb7d93a8
+Description:  Translation for luci-app-modemband - Polski (Polish)
+
+Package: luci-i18n-modemdefine-pl
+Version: 230704.28896
+Depends: libc, luci-app-modemdefine
+Section: luci
+Architecture: all
+Installed-Size: 836
+Filename: luci-i18n-modemdefine-pl_230704.28896_all.ipk
+Size: 1645
+SHA256sum: fd2d6dcbf30d319251e06d98ffc01fca092c8b7cfa566c85adf97f5403069744
+Description:  Translation for luci-app-modemdefine - Polski (Polish)
+
+Package: luci-i18n-sms-tool-js-pl
+Version: 230917.76038
+Depends: libc, luci-app-sms-tool-js
+Section: luci
+Architecture: all
+Installed-Size: 3962
+Filename: luci-i18n-sms-tool-js-pl_230917.76038_all.ipk
+Size: 4756
+SHA256sum: d753c93e9fc625752c72cfbdf6278f4e3d9d94484032c16651110bef22d4d551
+Description:  Translation for luci-app-sms-tool-js - Polski (Polish)
+
+Package: luci-i18n-sms-tool-pl
+Version: 230430.72601
+Depends: libc, luci-app-sms-tool
+Section: luci
+Architecture: all
+Installed-Size: 3146
+Filename: luci-i18n-sms-tool-pl_230430.72601_all.ipk
+Size: 3924
+SHA256sum: 9bc7ce3c14e25609e3236ba43e7e639ec1597a3de275a1c251a8bcb75faf3fb4
+Description:  Translation for luci-app-sms-tool - Polski (Polish)
+
+Package: modemband
+Version: 20231216
+Depends: libc, sms-tool
+Section: net
+Architecture: all
+Installed-Size: 6013
+Filename: modemband_20231216_all.ipk
+Size: 6724
+SHA256sum: dff705147d0480df764f19645e10fb9b4af6c1930b7889355e45ca7f05de0d19
+Description:  Setting LTE/5G bands for selected modems
+
