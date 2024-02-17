@@ -1,6 +1,7 @@
 # Modem-extras (My repository)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/4IceG/Modem-extras?style=flat-square)
 ![GitHub stars](https://img.shields.io/github/stars/4IceG/Modem-extras?style=flat-square)
+![GitHub forks](https://img.shields.io/github/forks/4IceG/Modem-extras?style=flat-square)
 
 ## <img src="https://raw.githubusercontent.com/4IceG/Personal_data/master/dooffy_design_icons_EU_flags_United_Kingdom.png" height="24"> What You Should Know / <img src="https://raw.githubusercontent.com/4IceG/Personal_data/master/dooffy_design_icons_EU_flags_Poland.png" height="24"> Co powinieneś wiedzieć
 > The sms-tool package is available in the OpenWrt repository since v23.05. 
