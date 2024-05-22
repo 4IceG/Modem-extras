@@ -1,0 +1,264 @@
+Package: luci-app-3ginfo-lite
+Version: 1.0.72-20240519
+Depends: libc, sms-tool, comgt, kmod-usb-serial-option
+Section: luci
+Architecture: all
+Installed-Size: 108414
+Filename: luci-app-3ginfo-lite_1.0.72-20240519_all.ipk
+Size: 108949
+SHA256sum: 428c89946064238e61b883d070da3aceaab773844019c6b783695bbd48437b87
+Description:  LuCI JS interface for the 3ginfo-lite. The package allows you to view the parameters of the mobile internet connection.
+
+Package: luci-app-atcommands
+Version: 1.0.9-20240522
+Depends: libc, sms-tool
+Section: luci
+Architecture: all
+Installed-Size: 3101
+Filename: luci-app-atcommands_1.0.9-20240522_all.ipk
+Size: 3995
+SHA256sum: 39b5021e24f2c06d057afaf493dd40fae3b04f1ef83b51d03663a96df30db158
+Description:  LuCI JS interface for the sms-tool. The user interface supports only AT commands.
+
+Package: luci-app-easyconfig-transfer
+Version: 1.0.7-20240427
+Depends: libc
+Section: luci
+Architecture: all
+Installed-Size: 11088
+Filename: luci-app-easyconfig-transfer_1.0.7-20240427_all.ipk
+Size: 11995
+SHA256sum: 66e37f17b55372b525a91a3f7b249d009d52e60e1c18eaf519bf10a7bd8d6077
+Description:  LuCI JS interface for the easyconfig transfer statistics.
+
+Package: luci-app-ledcontrol
+Version: 1.0.1-20230701
+Depends: libc, adb, sms-tool
+Section: luci
+Architecture: all
+Installed-Size: 3095
+Filename: luci-app-ledcontrol_1.0.1-20230701_all.ipk
+Size: 3994
+SHA256sum: 526b4f91d5d86719cb68b185692736f0030398baad65a31c6c747d4af5733f86
+Description:  Luci interface for controlling LEDs in ZTE MF286D. The package allows you to control the LEDs by creating a schedule for switching off/on.
+
+Package: luci-app-lite-watchdog
+Version: 1.0.15-20240102
+Depends: libc, sms-tool, kmod-usb-serial, kmod-usb-serial-option, comgt
+Section: luci
+Architecture: all
+Installed-Size: 8358
+Filename: luci-app-lite-watchdog_1.0.15-20240102_all.ipk
+Size: 9304
+SHA256sum: 4a6310cde57323aa0fc3d442e48429eba3dcfacd7beb68caa2f96fe4851690f8
+Description:  LuCI JS interface for the lite-watchdog scripts.
+
+Package: luci-app-modemband
+Version: 1.0.25-20240519
+Depends: libc, sms-tool, modemband
+Section: luci
+Architecture: all
+Installed-Size: 6658
+Filename: luci-app-modemband_1.0.25-20240519_all.ipk
+Size: 7569
+SHA256sum: 58ad4808df0a4cdd8d2fb07e927013b16e7cbbf90837ffbd359a893d61406117
+Description:  LuCI JS interface for the modemband. The package allows set LTE/5G bands for selected 4G/5G modems.
+
+Package: luci-app-modemdefine
+Version: 1.0.6-20240330
+Depends: libc
+Section: luci
+Architecture: all
+Installed-Size: 2691
+Filename: luci-app-modemdefine_1.0.6-20240330_all.ipk
+Size: 3656
+SHA256sum: 0421f4a105349ab8f085c6af08f02e555a1c0b5c1e8a1d40799b73a57911ed80
+Description:  LuCI JS interface to define the available modems. The list of modems will make it easier for the user to switch between modems in other LuCI applications.
+
+Package: luci-app-sms-tool
+Version: 1.9.6-20230501
+Depends: libc, sms-tool, kmod-usb-serial, kmod-usb-serial-option, comgt
+Section: luci
+Architecture: all
+Installed-Size: 21570
+Filename: luci-app-sms-tool_1.9.6-20230501_all.ipk
+Size: 22490
+SHA256sum: 77d552d0917b91d7d9a1e81e39fb8a38d64d6d2306bcead979cde5ee383cfe71
+Description:  LuCI interface for the sms-tool. The user interface supports SMS/USSD Codes/AT Commands.
+
+Package: luci-app-sms-tool-js
+Version: 2.0.22-20240522
+Depends: libc, sms-tool, kmod-usb-serial, kmod-usb-serial-option, comgt
+Section: luci
+Architecture: all
+Installed-Size: 22749
+Filename: luci-app-sms-tool-js_2.0.22-20240522_all.ipk
+Size: 23733
+SHA256sum: a6a96659f2fd88ef0a01126171cd7600069edd6041e3e1dc812fbb4cf2e93428
+Description:  LuCI JS interface for the sms-tool. The user interface supports SMS / USSD Codes / AT Commands.
+
+Package: luci-i18n-3ginfo-lite-de
+Version: 240519.36148
+Depends: libc, luci-app-3ginfo-lite
+Section: luci
+Architecture: all
+Installed-Size: 1455
+Filename: luci-i18n-3ginfo-lite-de_240519.36148_all.ipk
+Size: 2267
+SHA256sum: 73b0cb26ca6eb365e8b53920f13a86e648fdb1b62079829427488c862f54e370
+Description:  Translation for luci-app-3ginfo-lite - Deutsch (German)
+
+Package: luci-i18n-3ginfo-lite-it
+Version: 240519.36148
+Depends: libc, luci-app-3ginfo-lite
+Section: luci
+Architecture: all
+Installed-Size: 1638
+Filename: luci-i18n-3ginfo-lite-it_240519.36148_all.ipk
+Size: 2452
+SHA256sum: 4356115c5bba4c6968fc1777f4c6566582c2f427f93cce2d13c96a61753c30e0
+Description:  Translation for luci-app-3ginfo-lite - Italiano (Italian)
+
+Package: luci-i18n-3ginfo-lite-pl
+Version: 240519.36148
+Depends: libc, luci-app-3ginfo-lite
+Section: luci
+Architecture: all
+Installed-Size: 2488
+Filename: luci-i18n-3ginfo-lite-pl_240519.36148_all.ipk
+Size: 3262
+SHA256sum: 12ccadef8310ba6db4724991fce1d9dc5446ecdf9770c866097180e842dc408d
+Description:  Translation for luci-app-3ginfo-lite - Polski (Polish)
+
+Package: luci-i18n-3ginfo-lite-zh-cn
+Version: 240519.36148
+Depends: libc, luci-app-3ginfo-lite
+Section: luci
+Architecture: all
+Installed-Size: 1601
+Filename: luci-i18n-3ginfo-lite-zh-cn_240519.36148_all.ipk
+Size: 2450
+SHA256sum: b8b873900936d1f11cd3d77625dd4f9e8e052d75cd8c46efd89535ce1db3402e
+Description:  Translation for luci-app-3ginfo-lite - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-atcommands-it
+Version: 230325.84939
+Depends: libc, luci-app-atcommands
+Section: luci
+Architecture: all
+Installed-Size: 961
+Filename: luci-i18n-atcommands-it_230325.84939_all.ipk
+Size: 1764
+SHA256sum: daf3da98a6a2ea683a6fa2573751a42a066671ddf7549aa44601f23494dc0b05
+Description:  Translation for luci-app-atcommands - Italiano (Italian)
+
+Package: luci-i18n-atcommands-pl
+Version: 230325.84939
+Depends: libc, luci-app-atcommands
+Section: luci
+Architecture: all
+Installed-Size: 994
+Filename: luci-i18n-atcommands-pl_230325.84939_all.ipk
+Size: 1795
+SHA256sum: f7f3f7bcb5fd2039e2c8f98f2d1cda3375d2364748d12d8cfb7db9852e04d44a
+Description:  Translation for luci-app-atcommands - Polski (Polish)
+
+Package: luci-i18n-easyconfig-transfer-pl
+Version: 240427.33207
+Depends: libc, luci-app-easyconfig-transfer
+Section: luci
+Architecture: all
+Installed-Size: 3085
+Filename: luci-i18n-easyconfig-transfer-pl_240427.33207_all.ipk
+Size: 3861
+SHA256sum: c2d8eb678f62d4a57ad9bd967bc19c8198ddccfdc936c6f1627d93b0f36ea6ba
+Description:  Translation for luci-app-easyconfig-transfer - Polski (Polish)
+
+Package: luci-i18n-ledcontrol-pl
+Version: 221120.71489
+Depends: libc, luci-app-ledcontrol
+Section: luci
+Architecture: all
+Installed-Size: 1007
+Filename: luci-i18n-ledcontrol-pl_221120.71489_all.ipk
+Size: 1806
+SHA256sum: c566671396a5b523306fd746956e4d20ddb536408dcf6c94be0aa1053750f9e4
+Description:  Translation for luci-app-ledcontrol - Polski (Polish)
+
+Package: luci-i18n-lite-watchdog-pl
+Version: 240102.37971
+Depends: libc, luci-app-lite-watchdog
+Section: luci
+Architecture: all
+Installed-Size: 2394
+Filename: luci-i18n-lite-watchdog-pl_240102.37971_all.ipk
+Size: 3174
+SHA256sum: c5bec790a323382037c7d3d53f368c7d42afd1dafd6a24d43ec37a7a0ed7aecf
+Description:  Translation for luci-app-lite-watchdog - Polski (Polish)
+
+Package: luci-i18n-modemband-pl
+Version: 240519.33927
+Depends: libc, luci-app-modemband
+Section: luci
+Architecture: all
+Installed-Size: 2473
+Filename: luci-i18n-modemband-pl_240519.33927_all.ipk
+Size: 3248
+SHA256sum: af75d7f003627f89058059a3660936c62364f55c7490f540ee9902112bd15b66
+Description:  Translation for luci-app-modemband - Polski (Polish)
+
+Package: luci-i18n-modemband-zh-cn
+Version: 240519.33927
+Depends: libc, luci-app-modemband
+Section: luci
+Architecture: all
+Installed-Size: 2337
+Filename: luci-i18n-modemband-zh-cn_240519.33927_all.ipk
+Size: 3146
+SHA256sum: 72ff3f9cf38576354e8e80629240d526aa11e0f178647a942ad5779d57db9910
+Description:  Translation for luci-app-modemband - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-sms-tool-js-pl
+Version: 240519.33999
+Depends: libc, luci-app-sms-tool-js
+Section: luci
+Architecture: all
+Installed-Size: 3962
+Filename: luci-i18n-sms-tool-js-pl_240519.33999_all.ipk
+Size: 4753
+SHA256sum: aacab44b8429da0e45c7f953b0b86d4817f39ce264a5c2ee6039ea86fae67bd5
+Description:  Translation for luci-app-sms-tool-js - Polski (Polish)
+
+Package: luci-i18n-sms-tool-js-zh-cn
+Version: 240519.33999
+Depends: libc, luci-app-sms-tool-js
+Section: luci
+Architecture: all
+Installed-Size: 3653
+Filename: luci-i18n-sms-tool-js-zh-cn_240519.33999_all.ipk
+Size: 4469
+SHA256sum: 68e577a93d8b69bda44b982d662a5542fd3989812798d33e5558f855e0b43c28
+Description:  Translation for luci-app-sms-tool-js - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-sms-tool-pl
+Version: 230430.72601
+Depends: libc, luci-app-sms-tool
+Section: luci
+Architecture: all
+Installed-Size: 3146
+Filename: luci-i18n-sms-tool-pl_230430.72601_all.ipk
+Size: 3924
+SHA256sum: 9bc7ce3c14e25609e3236ba43e7e639ec1597a3de275a1c251a8bcb75faf3fb4
+Description:  Translation for luci-app-sms-tool - Polski (Polish)
+
+Package: modemband
+Version: 20240421
+Depends: libc, sms-tool
+Section: net
+Architecture: all
+Installed-Size: 6784
+Filename: modemband_20240421_all.ipk
+Size: 7547
+SHA256sum: d4a3f367c409b56e4d684778b6f514eb4750961b98b3457d347cc3a4c17c47be
+Description:  Setting LTE/5G bands for selected modems
+
