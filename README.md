@@ -4,8 +4,8 @@
 ![GitHub forks](https://img.shields.io/github/forks/4IceG/Modem-extras?style=flat-square)
 
 ## <img src="https://raw.githubusercontent.com/4IceG/Personal_data/master/dooffy_design_icons_EU_flags_United_Kingdom.png" height="24"> What You Should Know / <img src="https://raw.githubusercontent.com/4IceG/Personal_data/master/dooffy_design_icons_EU_flags_Poland.png" height="24"> Co powinieneś wiedzieć
-> The sms-tool package is available in the OpenWrt repository since v23.05. 
-
+> [!IMPORTANT]
+> The sms-tool package is available in the OpenWrt repository since v23.05.   
 > Pakiet sms-tool jest dostępny w repozytorium OpenWrt v23.05.
 
 ### <img src="https://raw.githubusercontent.com/4IceG/Personal_data/master/dooffy_design_icons_EU_flags_United_Kingdom.png" height="24"> To install packages from my repository:
@@ -71,3 +71,16 @@ Krok 3. Wykonać polecenie:
 ``` bash
 opkg update
 ```
+### <img src="https://raw.githubusercontent.com/4IceG/Personal_data/master/dooffy_design_icons_EU_flags_Poland.png" height="24"> Pokaż swoje wsparcie | <img src="https://raw.githubusercontent.com/4IceG/Personal_data/master/dooffy_design_icons_EU_flags_United_Kingdom.png" height="24"> Show your support
+
+<p align="center">
+</p>
+<p align="center">
+<a href="https://github.com/sponsors/4IceG">
+  <img width=25% src="https://github.com/4IceG/Personal_data/blob/master/nspons.PNG?raw=true">
+</a>
+</p>
+
+<p align="center">
+<a href="https://suppi.pl/rafalwabik"><img width=25% src="https://github.com/4IceG/Personal_data/blob/master/kawa.png?raw=true" alt="https://suppi.pl/rafalwabik" /></a>
+</p>
