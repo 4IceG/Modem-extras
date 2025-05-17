@@ -11,7 +11,7 @@
 ## <img src="https://raw.githubusercontent.com/4IceG/Personal_data/master/dooffy_design_icons_EU_flags_United_Kingdom.png" height="24"> What You Should Know / <img src="https://raw.githubusercontent.com/4IceG/Personal_data/master/dooffy_design_icons_EU_flags_Poland.png" height="24"> Co powinieneś wiedzieć
 > [!IMPORTANT]
 > The sms-tool package is available in the OpenWrt repository since v23.05.   
-> Pakiet sms-tool jest dostępny w repozytorium OpenWrt v23.05.
+> Pakiet sms-tool jest dostępny w repozytorium OpenWrt od wydania v23.05.
 
 ### <img src="https://raw.githubusercontent.com/4IceG/Personal_data/master/dooffy_design_icons_EU_flags_United_Kingdom.png" height="24"> To install packages from my repository:
 - Execute following commands on your OpenWrt router:
