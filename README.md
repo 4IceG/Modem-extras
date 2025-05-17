@@ -1,6 +1,6 @@
 <p align="center">
- <a href="https://github.com/4IceG/Modem-extras"><img width=5% src="https://github.com/4IceG/Personal_data/blob/master/ipk-repo.png?raw=true"></a>
- <a href="https://github.com/4IceG/Modem-extras-apk"><img width=3% src="https://github.com/4IceG/Personal_data/blob/master/apk-repo.png?raw=true"></a>
+ <a href="https://github.com/4IceG/Modem-extras"><img width=7% src="https://github.com/4IceG/Personal_data/blob/master/ipk-repo.png?raw=true"></a>
+ <a href="https://github.com/4IceG/Modem-extras-apk"><img width=5% src="https://github.com/4IceG/Personal_data/blob/master/apk-repo.png?raw=true"></a>
 </p>
 
 # Modem-extras (My repository)
