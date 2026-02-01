@@ -1,6 +1,6 @@
 <p align="center">
- <a href="https://github.com/4IceG/Modem-extras"><img width=7% src="https://github.com/4IceG/Personal_data/blob/master/ipk-repo.png?raw=true"></a>
- <a href="https://github.com/4IceG/Modem-extras-apk"><img width=5% src="https://github.com/4IceG/Personal_data/blob/master/apk-repo.png?raw=true"></a>
+ <a href="https://github.com/4IceG/Modem-extras"><img width=7% src="https://raw.githubusercontent.com/4IceG/Personal_data/master/ipk-repo.png"></a>
+ <a href="https://github.com/4IceG/Modem-extras-apk"><img width=5% src="https://raw.githubusercontent.com/4IceG/Personal_data/master/apk-repo.png"></a>
 </p>
 
 # Modem-extras (My repository)
@@ -31,8 +31,8 @@
       <details>
          <summary>Show me how</summary>
          
-      ![](https://github.com/4IceG/Personal_data/blob/master/repo1.PNG?raw=true)
-      ![](https://github.com/4IceG/Personal_data/blob/master/repo2en.png?raw=true)
+      ![](https://raw.githubusercontent.com/4IceG/Personal_data/master/repo1.PNG)
+      ![](https://raw.githubusercontent.com/4IceG/Personal_data/master/repo2en.png)
       
       </details>
   2. Add repository public key with commands:
@@ -70,8 +70,8 @@ src/gz IceG_repo https://raw.githubusercontent.com/4IceG/Modem-extras/main/myrep
 <details>
    <summary>Pokaż jak to zrobić</summary>
    
-![](https://github.com/4IceG/Personal_data/blob/master/repo1.PNG?raw=true)
-![](https://github.com/4IceG/Personal_data/blob/master/repo2pl.png?raw=true)
+![](https://raw.githubusercontent.com/4IceG/Personal_data/master/repo1.PNG)
+![](https://raw.githubusercontent.com/4IceG/Personal_data/master/repo2pl.png)
 
 </details>
 
@@ -94,7 +94,7 @@ opkg install luci-app-sms-tool-js
 </p>
 <p align="center">
 <a href="https://github.com/sponsors/4IceG">
-  <img width=25% src="https://github.com/4IceG/Personal_data/blob/master/nspons.PNG?raw=true">
+  <img width=25% src="https://raw.githubusercontent.com/4IceG/Personal_data/master/nspons.PNG">
 </a>
 </p>
 
