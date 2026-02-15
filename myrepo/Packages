@@ -1,0 +1,787 @@
+Package: luci-app-3ginfo-lite
+Version: 1.0.77
+Depends: libc, sms-tool, comgt, kmod-usb-serial-option
+Section: luci
+Architecture: all
+Installed-Size: 114385
+Filename: luci-app-3ginfo-lite_1.0.77_all.ipk
+Size: 114801
+SHA256sum: e6e079639a4cc31730763bf56fa3fdad5a96f9b99b773f1dbfc1d9b942770830
+Description:  LuCI JS interface for the 3ginfo-lite. The package allows you to view the parameters of the mobile internet connection.
+
+Package: luci-app-atcommands
+Version: 1.0.10-r20250126
+Depends: libc, sms-tool
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 30720
+Filename: luci-app-atcommands_1.0.10-r20250126_all.ipk
+Size: 4017
+SHA256sum: 47ebd171f78e0ff371a2c25777c3fba4c083d31577823f247239b37ea72fa73b
+Description:  LuCI JS interface for the sms-tool. The user interface supports only AT commands.
+
+Package: luci-app-at-socat
+Version: 1.0.2
+Depends: libc, socat
+Section: luci
+Architecture: all
+Installed-Size: 3065
+Filename: luci-app-at-socat_1.0.2_all.ipk
+Size: 3921
+SHA256sum: a21ecaac4e3ff54b8d1880586b22a42074ace675a25309ef87ebb41ec7c23313
+Description:  LuCI JS interface for sending at commands using socat.
+
+Package: luci-app-cpu-status
+Version: 0.6.1-r1
+Depends: libc
+License: MIT
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 40960
+Filename: luci-app-cpu-status_0.6.1-r1_all.ipk
+Size: 6380
+SHA256sum: 304099ee7dcbfd10935bdf4122d35e61ae680917a64f3537dc122cc9f0af8582
+Description:  CPU utilization info for the LuCI status page
+
+Package: luci-app-drive-status-mini
+Version: 0.5-r20250106
+Depends: libc, luci-mod-admin-full, lsblk
+License: GNU General Public License v3.0
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 10240
+Filename: luci-app-drive-status-mini_0.5-r20250106_all.ipk
+Size: 2251
+SHA256sum: 4bb2a0290890223008b6d660d9eed09cb186e9cfc2f055518d163cccb478fadd
+Description:  Drive info for the LuCI status page
+
+Package: luci-app-easyconfig-transfer
+Version: 1.0.11-r20250505
+Depends: libc, luci-base
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 71680
+Filename: luci-app-easyconfig-transfer_1.0.11-r20250505_all.ipk
+Size: 12681
+SHA256sum: 666954b998a2876b195e19af015e579af1bec1adb8226d373903cb9618500c42
+Description:  LuCI JS interface for the easyconfig transfer statistics.
+
+Package: luci-app-internet-detector
+Version: 0.4-r1
+Depends: libc, luci-mod-admin-full
+License: MIT
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 20480
+Filename: luci-app-internet-detector_0.4-r1_all.ipk
+Size: 2169
+SHA256sum: b729baba47ce4e18a3198cdc2c564ba682acc253ec4bf52a29c7ea48419b57de
+Description:  Internet detector for the LuCI status page
+
+Package: luci-app-ledcontrol
+Version: 1.0.1-r20250126
+Depends: libc, adb, sms-tool
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 30720
+Filename: luci-app-ledcontrol_1.0.1-r20250126_all.ipk
+Size: 4003
+SHA256sum: a4e5a4a9f60d21c9b80a68cf0ba8b3f1cf8053df0ca902e63821923e9dad2fb8
+Description:  Luci interface for controlling LEDs in ZTE MF286D. The package allows you to control the LEDs by creating a schedule for switching off/on.
+
+Package: luci-app-lite-watchdog
+Version: 1.0.16-r20250505
+Depends: libc, sms-tool, kmod-usb-serial, kmod-usb-serial-option, comgt
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 51200
+Filename: luci-app-lite-watchdog_1.0.16-r20250505_all.ipk
+Size: 9422
+SHA256sum: fa34958b6134b0f587ce651c683e43987edcf86604cb2644cb43c29214988b08
+Description:  LuCI JS interface for the lite-watchdog scripts.
+
+Package: luci-app-mini-diskmanager
+Version: 1.0.29
+Depends: libc, luci-base, block-mount, fdisk, parted, lsblk
+Section: luci
+Architecture: all
+Installed-Size: 47196
+Filename: luci-app-mini-diskmanager_1.0.29_all.ipk
+Size: 48167
+SHA256sum: 05173fdf7683ebf5be5124473b714904ee9cb89e6d32192441e50f4bdf5f5116
+Description:  Interface for managing disk partitions and filesystems in OpenWrt.
+
+Package: luci-app-modemband
+Version: 1.0.31
+Depends: libc, sms-tool, modemband
+Section: luci
+Architecture: all
+Installed-Size: 9660
+Filename: luci-app-modemband_1.0.31_all.ipk
+Size: 10548
+SHA256sum: ad6b04b56cb51386c814ad4fd23d225590ba705250cd06a9511f99ac01804b67
+Description:  LuCI JS interface for the modemband. The package allows set LTE/5G bands for selected 4G/5G modems.
+
+Package: luci-app-modemdata
+Version: 1.0.26
+Depends: libc, sms-tool, comgt, modemdata
+Section: luci
+Architecture: all
+Installed-Size: 196305
+Filename: luci-app-modemdata_1.0.26_all.ipk
+Size: 182583
+SHA256sum: 1c663327f1bc3f1ccacde5f13907cde6d9c3270194f12d7bcb9ca28c12277454
+Description:  Detailed information about the cellular modem and parameters of the mobile internet connection.
+
+Package: luci-app-modemdefine
+Version: 1.0.6-20240330
+Depends: libc
+Section: luci
+Architecture: all
+Installed-Size: 2691
+Filename: luci-app-modemdefine_1.0.6-20240330_all.ipk
+Size: 3656
+SHA256sum: 0421f4a105349ab8f085c6af08f02e555a1c0b5c1e8a1d40799b73a57911ed80
+Description:  LuCI JS interface to define the available modems. The list of modems will make it easier for the user to switch between modems in other LuCI applications.
+
+Package: luci-app-ports-status-mod
+Version: 1.0.4
+Depends: libc, luci-mod-admin-full
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 11507
+Filename: luci-app-ports-status-mod_1.0.4_all.ipk
+Size: 12351
+SHA256sum: ecc44659c2cc154bf5a0bd56c768f644c739e6adf257ba24a12b733beb772e63
+Description:  Small modification of Ports Status
+
+Package: luci-app-qfirehose
+Version: 1.0.0-r1
+Depends: libc, luci-base, qfirehose, unzip, kmod-usbmon, debugfs, luci-compat
+License: GPLv3
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 30720
+Filename: luci-app-qfirehose_1.0.0-r1_all.ipk
+Size: 6920
+SHA256sum: badefa67c2db9006e174edb3e049b7d7deef1f574dcde4e135b4b58c5ebedf63
+Description:  Web interface for QFirehose, a tool for flashing Qualcomm firmware on OpenWrt
+
+Package: luci-app-sms-tool
+Version: 1.9.6-20230501
+Depends: libc, sms-tool, kmod-usb-serial, kmod-usb-serial-option, comgt
+Section: luci
+Architecture: all
+Installed-Size: 21570
+Filename: luci-app-sms-tool_1.9.6-20230501_all.ipk
+Size: 22490
+SHA256sum: 77d552d0917b91d7d9a1e81e39fb8a38d64d6d2306bcead979cde5ee383cfe71
+Description:  LuCI interface for the sms-tool. The user interface supports SMS/USSD Codes/AT Commands.
+
+Package: luci-app-sms-tool-js
+Version: 2.0.34
+Depends: libc, sms-tool, kmod-usb-serial, kmod-usb-serial-option, comgt
+Section: luci
+Architecture: all
+Installed-Size: 40195
+Filename: luci-app-sms-tool-js_2.0.34_all.ipk
+Size: 41225
+SHA256sum: d80aba7e096d17f9023788cc62a2f50a4e754202ee48eb12847afcc7601207c9
+Description:  LuCI JS interface for the sms-tool. The user interface supports SMS / USSD Codes / AT Commands.
+
+Package: luci-app-timecontrol
+Version: 1.1
+Depends: libc, luci-compat
+Section: luci
+Architecture: all
+Installed-Size: 2761
+Filename: luci-app-timecontrol_1.1_all.ipk
+Size: 3567
+SHA256sum: b6bac206b033a7324f93dfcfdc8d73284471b8dda255ec5ee0f12b05bee07011
+Description:  LuCI support for Time Control
+
+Package: luci-i18n-3ginfo-lite-de
+Version: unknown
+Depends: libc, luci-app-3ginfo-lite
+Section: luci
+Architecture: all
+Installed-Size: 1449
+Filename: luci-i18n-3ginfo-lite-de_unknown_all.ipk
+Size: 2162
+SHA256sum: a74a1c1b5fd8a0a0aed8b3364f4f0ea31a0c28212e229428bc2782012a0a11c1
+Description:  Translation for luci-app-3ginfo-lite - Deutsch (German)
+
+Package: luci-i18n-3ginfo-lite-pl
+Version: unknown
+Depends: libc, luci-app-3ginfo-lite
+Section: luci
+Architecture: all
+Installed-Size: 2478
+Filename: luci-i18n-3ginfo-lite-pl_unknown_all.ipk
+Size: 3165
+SHA256sum: b676d744cc7055e1da9e9b71bbcc692de2626f3686d604976197d9b8716f422c
+Description:  Translation for luci-app-3ginfo-lite - Polski (Polish)
+
+Package: luci-i18n-3ginfo-lite-ru
+Version: unknown
+Depends: libc, luci-app-3ginfo-lite
+Section: luci
+Architecture: all
+Installed-Size: 2546
+Filename: luci-i18n-3ginfo-lite-ru_unknown_all.ipk
+Size: 3262
+SHA256sum: b7b1c311a855850ccac03f86831f769dbeb982c2b9b1449247e39f419b04e55d
+Description:  Translation for luci-app-3ginfo-lite - Русский (Russian)
+
+Package: luci-i18n-3ginfo-lite-zh-cn
+Version: unknown
+Depends: libc, luci-app-3ginfo-lite
+Section: luci
+Architecture: all
+Installed-Size: 1801
+Filename: luci-i18n-3ginfo-lite-zh-cn_unknown_all.ipk
+Size: 2557
+SHA256sum: 5d4d924a4db51da10cc8f56ae56e413ab0dc60ab85279dd70e42c908a8c46622
+Description:  Translation for luci-app-3ginfo-lite - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-atcommands-it
+Version: 0
+Depends: libc, luci-app-atcommands
+Section: luci
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-atcommands-it_0_all.ipk
+Size: 1701
+SHA256sum: a617795ee75cd0681e5c3ff764cd07df19c2fe7cda9d8fe3375b8278d90c0ade
+Description:  Translation for luci-app-atcommands - Italiano (Italian)
+
+Package: luci-i18n-atcommands-pl
+Version: 0
+Depends: libc, luci-app-atcommands
+Section: luci
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-atcommands-pl_0_all.ipk
+Size: 1735
+SHA256sum: 197f05f12029bdbe6dbf760e0b94b886f1c84fcf867c2a3f0023452fc03dd139
+Description:  Translation for luci-app-atcommands - Polski (Polish)
+
+Package: luci-i18n-atcommands-zh-cn
+Version: 0
+Depends: libc, luci-app-atcommands
+Section: luci
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-atcommands-zh-cn_0_all.ipk
+Size: 1773
+SHA256sum: f6cf644ddb26badfa843400fdd9f22a880c6d1bbe2c29d31a0b2ab988ef35066
+Description:  Translation for luci-app-atcommands - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-cpu-status-pl
+Version: 0
+Depends: libc, luci-app-cpu-status
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-cpu-status-pl_0_all.ipk
+Size: 1249
+SHA256sum: e1ba80629312ae5379fed40d90e0bcc7504e0def6ed41154eced0fac52c5204e
+Description:  Translation for luci-app-cpu-status - Polski (Polish)
+
+Package: luci-i18n-cpu-status-ru
+Version: 0
+Depends: libc, luci-app-cpu-status
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-cpu-status-ru_0_all.ipk
+Size: 1389
+SHA256sum: 7ed549a876912893a9cfaae67d6283773c4ea4f57cf3a5d6897dfe4f44208df0
+Description:  Translation for luci-app-cpu-status - Русский (Russian)
+
+Package: luci-i18n-cpu-status-zh-cn
+Version: 0
+Depends: libc, luci-app-cpu-status
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-cpu-status-zh-cn_0_all.ipk
+Size: 1383
+SHA256sum: 97e7ff88b46d47678d53c0cff5dbd065462ff6055f4ce89105be2ea70b1b83f4
+Description:  Translation for luci-app-cpu-status - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-drive-status-mini-pl
+Version: 0
+Depends: libc, luci-app-drive-status-mini
+License: GNU General Public License v3.0
+Section: luci
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-drive-status-mini-pl_0_all.ipk
+Size: 1200
+SHA256sum: d9714c5bee59a7075c97f09c0d4e97d9a9c37971a82d5f779cd01529046dfc1a
+Description:  Translation for luci-app-drive-status-mini - Polski (Polish)
+
+Package: luci-i18n-easyconfig-transfer-pl
+Version: 0
+Depends: libc, luci-app-easyconfig-transfer
+Section: luci
+Architecture: all
+Installed-Size: 20480
+Filename: luci-i18n-easyconfig-transfer-pl_0_all.ipk
+Size: 4032
+SHA256sum: f004b6e266c1bed40d6940c34c15414d570d73b537cde28291188f0042fc8c02
+Description:  Translation for luci-app-easyconfig-transfer - Polski (Polish)
+
+Package: luci-i18n-internet-detector-pl
+Version: 0
+Depends: libc, luci-app-internet-detector
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-internet-detector-pl_0_all.ipk
+Size: 1178
+SHA256sum: ff033b501b6473ca73c3d0280177223bad903248de7e848d6932bbc4f18da722
+Description:  Translation for luci-app-internet-detector - Polski (Polish)
+
+Package: luci-i18n-internet-detector-ru
+Version: 0
+Depends: libc, luci-app-internet-detector
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-internet-detector-ru_0_all.ipk
+Size: 1225
+SHA256sum: 82010090add70cc6b5083931013214f114273e58adcf505c32e4e625518615ac
+Description:  Translation for luci-app-internet-detector - Русский (Russian)
+
+Package: luci-i18n-ledcontrol-pl
+Version: 0
+Depends: libc, luci-app-ledcontrol
+Section: luci
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-ledcontrol-pl_0_all.ipk
+Size: 1709
+SHA256sum: be240a489254816e50577f3913b17fbfaf6deda2d2c398e6195130d3e7dc948f
+Description:  Translation for luci-app-ledcontrol - Polski (Polish)
+
+Package: luci-i18n-lite-watchdog-pl
+Version: 0
+Depends: libc, luci-app-lite-watchdog
+Section: luci
+Architecture: all
+Installed-Size: 20480
+Filename: luci-i18n-lite-watchdog-pl_0_all.ipk
+Size: 3122
+SHA256sum: 08c95883806bcd54aa56c4407ad976f96bf25ba982c3e3b18a495adb89c6e675
+Description:  Translation for luci-app-lite-watchdog - Polski (Polish)
+
+Package: luci-i18n-mini-diskmanager-de
+Version: unknown
+Depends: libc, luci-app-mini-diskmanager
+Section: luci
+Architecture: all
+Installed-Size: 8800
+Filename: luci-i18n-mini-diskmanager-de_unknown_all.ipk
+Size: 9525
+SHA256sum: 0aa26d8b8f00276de7afb039ee692f62561d6329016b294d5207b879946775ed
+Description:  Translation for luci-app-mini-diskmanager - Deutsch (German)
+
+Package: luci-i18n-mini-diskmanager-fr
+Version: unknown
+Depends: libc, luci-app-mini-diskmanager
+Section: luci
+Architecture: all
+Installed-Size: 8984
+Filename: luci-i18n-mini-diskmanager-fr_unknown_all.ipk
+Size: 9729
+SHA256sum: 62e7631b314e7b305a72edc0d5060586f54d9a4ca58ba1767cfdd16c400012af
+Description:  Translation for luci-app-mini-diskmanager - Français (French)
+
+Package: luci-i18n-mini-diskmanager-pl
+Version: unknown
+Depends: libc, luci-app-mini-diskmanager
+Section: luci
+Architecture: all
+Installed-Size: 8953
+Filename: luci-i18n-mini-diskmanager-pl_unknown_all.ipk
+Size: 9682
+SHA256sum: 2b80ae870167cf5beb2782c20e773e937c11664f5f8389cfb85bd1d845f4f8bc
+Description:  Translation for luci-app-mini-diskmanager - Polski (Polish)
+
+Package: luci-i18n-mini-diskmanager-ru
+Version: unknown
+Depends: libc, luci-app-mini-diskmanager
+Section: luci
+Architecture: all
+Installed-Size: 9905
+Filename: luci-i18n-mini-diskmanager-ru_unknown_all.ipk
+Size: 10643
+SHA256sum: c9908b1f11c9209e05b1ae0e9965482fce8db3a4f09ac6b3a7f095b3f534778d
+Description:  Translation for luci-app-mini-diskmanager - Русский (Russian)
+
+Package: luci-i18n-mini-diskmanager-vi
+Version: unknown
+Depends: libc, luci-app-mini-diskmanager
+Section: luci
+Architecture: all
+Installed-Size: 8672
+Filename: luci-i18n-mini-diskmanager-vi_unknown_all.ipk
+Size: 9426
+SHA256sum: 6d0dd4ee15c75f0ddcd29d0a81ab912b224778a7a9bc0b6bffe3187d7b9387ae
+Description:  Translation for luci-app-mini-diskmanager - Tiếng Việt (Vietnamese)
+
+Package: luci-i18n-mini-diskmanager-zh-cn
+Version: unknown
+Depends: libc, luci-app-mini-diskmanager
+Section: luci
+Architecture: all
+Installed-Size: 8178
+Filename: luci-i18n-mini-diskmanager-zh-cn_unknown_all.ipk
+Size: 8931
+SHA256sum: 47878ba29d576670f4cba48446aca311b2edb7b7c365e3c536d1ec73aecef9f5
+Description:  Translation for luci-app-mini-diskmanager - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-mini-diskmanager-zh-tw
+Version: unknown
+Depends: libc, luci-app-mini-diskmanager
+Section: luci
+Architecture: all
+Installed-Size: 8298
+Filename: luci-i18n-mini-diskmanager-zh-tw_unknown_all.ipk
+Size: 9054
+SHA256sum: 66e3bd99822f81b2a9fb7054aad186574f766831b03f93dd25ee4ef396608a08
+Description:  Translation for luci-app-mini-diskmanager - 繁體中文 (Chinese Traditional)
+
+Package: luci-i18n-modemband-pl
+Version: unknown
+Depends: libc, luci-app-modemband
+Section: luci
+Architecture: all
+Installed-Size: 2317
+Filename: luci-i18n-modemband-pl_unknown_all.ipk
+Size: 3041
+SHA256sum: 964b16a369c858996f10ab870eaf7e008770580bcc0ca108227a4cc1f82a1f0a
+Description:  Translation for luci-app-modemband - Polski (Polish)
+
+Package: luci-i18n-modemband-zh-cn
+Version: unknown
+Depends: libc, luci-app-modemband
+Section: luci
+Architecture: all
+Installed-Size: 2330
+Filename: luci-i18n-modemband-zh-cn_unknown_all.ipk
+Size: 3086
+SHA256sum: 054b968c8a73f3b9cf071d5a046408755eff7ba227c698cd4d6f03cc9c081836
+Description:  Translation for luci-app-modemband - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-modemdata-de
+Version: unknown
+Depends: libc, luci-app-modemdata
+Section: luci
+Architecture: all
+Installed-Size: 5236
+Filename: luci-i18n-modemdata-de_unknown_all.ipk
+Size: 5945
+SHA256sum: 6e8bb2206e608ae875d784bc46c51613ccf9a0e82d841046c4f36d49e43cb08e
+Description:  Translation for luci-app-modemdata - Deutsch (German)
+
+Package: luci-i18n-modemdata-fr
+Version: unknown
+Depends: libc, luci-app-modemdata
+Section: luci
+Architecture: all
+Installed-Size: 5800
+Filename: luci-i18n-modemdata-fr_unknown_all.ipk
+Size: 6508
+SHA256sum: 4c20986f344e4e8c0296e7753528a0efefa8405f8933f04ad4b40debba6df977
+Description:  Translation for luci-app-modemdata - Français (French)
+
+Package: luci-i18n-modemdata-pl
+Version: unknown
+Depends: libc, luci-app-modemdata
+Section: luci
+Architecture: all
+Installed-Size: 6092
+Filename: luci-i18n-modemdata-pl_unknown_all.ipk
+Size: 6800
+SHA256sum: a70b2177b1f6558df6eec8dd7e79195361d67beb0f207d62c2d530c7429cc714
+Description:  Translation for luci-app-modemdata - Polski (Polish)
+
+Package: luci-i18n-modemdata-ru
+Version: unknown
+Depends: libc, luci-app-modemdata
+Section: luci
+Architecture: all
+Installed-Size: 6606
+Filename: luci-i18n-modemdata-ru_unknown_all.ipk
+Size: 7319
+SHA256sum: e0bf18c857f9b4c371180391a9555a27e25eba06c90c78e9fd0d2da6970eb8a1
+Description:  Translation for luci-app-modemdata - Русский (Russian)
+
+Package: luci-i18n-modemdata-zh-cn
+Version: unknown
+Depends: libc, luci-app-modemdata
+Section: luci
+Architecture: all
+Installed-Size: 6505
+Filename: luci-i18n-modemdata-zh-cn_unknown_all.ipk
+Size: 7288
+SHA256sum: e52cda28255b062d9f1718fd8f51905a53ed079a3de7bc1e2a16a21ef26d4905
+Description:  Translation for luci-app-modemdata - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-ports-status-mod-de
+Version: unknown
+Depends: libc, luci-app-ports-status-mod
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 1608
+Filename: luci-i18n-ports-status-mod-de_unknown_all.ipk
+Size: 2375
+SHA256sum: edf6d762c75fd527b72a3038b09575b55668e0a107b88cc5ecda07666be0ff70
+Description:  Translation for luci-app-ports-status-mod - Deutsch (German)
+
+Package: luci-i18n-ports-status-mod-fr
+Version: unknown
+Depends: libc, luci-app-ports-status-mod
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 1611
+Filename: luci-i18n-ports-status-mod-fr_unknown_all.ipk
+Size: 2386
+SHA256sum: 9b3f7c59aea84b819e21cb8ebb821bd6b78ee070a6799ce680218b909bf6edc2
+Description:  Translation for luci-app-ports-status-mod - Français (French)
+
+Package: luci-i18n-ports-status-mod-pl
+Version: unknown
+Depends: libc, luci-app-ports-status-mod
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 1665
+Filename: luci-i18n-ports-status-mod-pl_unknown_all.ipk
+Size: 2431
+SHA256sum: 19842035dfa3e19fdbccb977c6b40774d466627f165da5d4d796000c4875a306
+Description:  Translation for luci-app-ports-status-mod - Polski (Polish)
+
+Package: luci-i18n-ports-status-mod-ru
+Version: unknown
+Depends: libc, luci-app-ports-status-mod
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 1793
+Filename: luci-i18n-ports-status-mod-ru_unknown_all.ipk
+Size: 2580
+SHA256sum: 68d1a9c1a6f59bd44f3a5a9bbd9ae6824fd617037331d0da6c0a42aa1f2056b0
+Description:  Translation for luci-app-ports-status-mod - Русский (Russian)
+
+Package: luci-i18n-ports-status-mod-vi
+Version: unknown
+Depends: libc, luci-app-ports-status-mod
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 1581
+Filename: luci-i18n-ports-status-mod-vi_unknown_all.ipk
+Size: 2360
+SHA256sum: d35affcef78a546a6797b805e6e558cd9e9869b5549652ea3a8b06703e6b4976
+Description:  Translation for luci-app-ports-status-mod - Tiếng Việt (Vietnamese)
+
+Package: luci-i18n-ports-status-mod-zh-cn
+Version: unknown
+Depends: libc, luci-app-ports-status-mod
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 1524
+Filename: luci-i18n-ports-status-mod-zh-cn_unknown_all.ipk
+Size: 2316
+SHA256sum: de8aa6b0f2bdb1097ded896c55f1bee1caa45d2063cb3837b2643afaaafb815a
+Description:  Translation for luci-app-ports-status-mod - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-ports-status-mod-zh-tw
+Version: unknown
+Depends: libc, luci-app-ports-status-mod
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 1540
+Filename: luci-i18n-ports-status-mod-zh-tw_unknown_all.ipk
+Size: 2333
+SHA256sum: ebc77ddfd2401b98854e8bdf64cc1a07d39d740c6ad124a2020900bebb86cc6a
+Description:  Translation for luci-app-ports-status-mod - 繁體中文 (Chinese Traditional)
+
+Package: luci-i18n-qfirehose-pl
+Version: 0
+Depends: libc, luci-app-qfirehose
+License: GPLv3
+Section: luci
+Architecture: all
+Installed-Size: 20480
+Filename: luci-i18n-qfirehose-pl_0_all.ipk
+Size: 3147
+SHA256sum: 4ce3d4b2936a07a974d1b48534dd9df81d143cfb40d9112aa247384dff6a11c1
+Description:  Translation for luci-app-qfirehose - Polski (Polish)
+
+Package: luci-i18n-qfirehose-zh-cn
+Version: 0
+Depends: libc, luci-app-qfirehose
+License: GPLv3
+Section: luci
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-qfirehose-zh-cn_0_all.ipk
+Size: 2899
+SHA256sum: a1949283f7ae53805ae8909e5acad1e4566d31dd4265e63c2f0fe1e2f69ba94b
+Description:  Translation for luci-app-qfirehose - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-sms-tool-js-de
+Version: unknown
+Depends: libc, luci-app-sms-tool-js
+Section: luci
+Architecture: all
+Installed-Size: 6354
+Filename: luci-i18n-sms-tool-js-de_unknown_all.ipk
+Size: 7136
+SHA256sum: 9e4e2ca0eb381aff6756b25e11881532a4ba617c62984f1fd8ecb8c58ce431b5
+Description:  Translation for luci-app-sms-tool-js - Deutsch (German)
+
+Package: luci-i18n-sms-tool-js-fr
+Version: unknown
+Depends: libc, luci-app-sms-tool-js
+Section: luci
+Architecture: all
+Installed-Size: 6402
+Filename: luci-i18n-sms-tool-js-fr_unknown_all.ipk
+Size: 7187
+SHA256sum: 0e3a43fba68ba05b310e772f523b1a25453120b36d00cf8d661410005fd88736
+Description:  Translation for luci-app-sms-tool-js - Français (French)
+
+Package: luci-i18n-sms-tool-js-pl
+Version: unknown
+Depends: libc, luci-app-sms-tool-js
+Section: luci
+Architecture: all
+Installed-Size: 6847
+Filename: luci-i18n-sms-tool-js-pl_unknown_all.ipk
+Size: 7622
+SHA256sum: 14f1d5dd7b8626bfa52438fcd05faf8b70e2b4585ef1b4ab67d5311d36826fe6
+Description:  Translation for luci-app-sms-tool-js - Polski (Polish)
+
+Package: luci-i18n-sms-tool-js-ru
+Version: unknown
+Depends: libc, luci-app-sms-tool-js
+Section: luci
+Architecture: all
+Installed-Size: 7104
+Filename: luci-i18n-sms-tool-js-ru_unknown_all.ipk
+Size: 7912
+SHA256sum: 149354259f55fd4a2a74720e245aa608b0aa33659bb9bd7ae7258757f0e0fd9d
+Description:  Translation for luci-app-sms-tool-js - Русский (Russian)
+
+Package: luci-i18n-sms-tool-js-vi
+Version: unknown
+Depends: libc, luci-app-sms-tool-js
+Section: luci
+Architecture: all
+Installed-Size: 6232
+Filename: luci-i18n-sms-tool-js-vi_unknown_all.ipk
+Size: 7041
+SHA256sum: a25ba67d2415f173a66925121ac3eacc468105ea204d7136230a4494e98a87cd
+Description:  Translation for luci-app-sms-tool-js - Tiếng Việt (Vietnamese)
+
+Package: luci-i18n-sms-tool-js-zh-cn
+Version: unknown
+Depends: libc, luci-app-sms-tool-js
+Section: luci
+Architecture: all
+Installed-Size: 5892
+Filename: luci-i18n-sms-tool-js-zh-cn_unknown_all.ipk
+Size: 6671
+SHA256sum: 7fed98ac85004d50d6860fabb3a741d01418f3f3db22ea3618530954775dbc0f
+Description:  Translation for luci-app-sms-tool-js - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-sms-tool-js-zh-tw
+Version: unknown
+Depends: libc, luci-app-sms-tool-js
+Section: luci
+Architecture: all
+Installed-Size: 5988
+Filename: luci-i18n-sms-tool-js-zh-tw_unknown_all.ipk
+Size: 6758
+SHA256sum: 49c93f88bbe25d89df97e7eb3c71b267515faa103c9190d5bc3d2e13bd8694a8
+Description:  Translation for luci-app-sms-tool-js - 繁體中文 (Chinese Traditional)
+
+Package: luci-i18n-sms-tool-pl
+Version: 230430.72601
+Depends: libc, luci-app-sms-tool
+Section: luci
+Architecture: all
+Installed-Size: 3146
+Filename: luci-i18n-sms-tool-pl_230430.72601_all.ipk
+Size: 3924
+SHA256sum: 9bc7ce3c14e25609e3236ba43e7e639ec1597a3de275a1c251a8bcb75faf3fb4
+Description:  Translation for luci-app-sms-tool - Polski (Polish)
+
+Package: luci-i18n-sms-tool-pl
+Version: 240620.70103
+Depends: libc, luci-app-sms-tool
+Section: luci
+Architecture: all
+Installed-Size: 3146
+Filename: luci-i18n-sms-tool-pl_240620.70103_all.ipk
+Size: 3923
+SHA256sum: 6984d350d0a1e12145d8d96a2683de7bd39c2b265b50862bcccc43f89b685a2e
+Description:  Translation for luci-app-sms-tool - Polski (Polish)
+
+Package: luci-i18n-timecontrol-pl
+Version: unknown
+Depends: libc, luci-app-timecontrol
+Section: luci
+Architecture: all
+Installed-Size: 683
+Filename: luci-i18n-timecontrol-pl_unknown_all.ipk
+Size: 1476
+SHA256sum: e28c8ded18faa00971a94971efd4416a439a6cc336be884989c9a0df7339b721
+Description:  Translation for luci-app-timecontrol - Polski (Polish)
+
+Package: modemband
+Version: 20251215-3
+Depends: libc, sms-tool
+Section: net
+Architecture: all
+Installed-Size: 7940
+Filename: modemband_20251215-3_all.ipk
+Size: 8683
+SHA256sum: 28873f044277f434d779c0d8d8186fd8333e2681abe5328c0dae32f73d960964
+Description:  Setting LTE/5G bands for selected modems
+
+Package: modemdata
+Version: 20251216-1
+Depends: libc, comgt, jsonfilter, sms-tool
+Section: utils
+Architecture: all
+Installed-Size: 36875
+Filename: modemdata_20251216-1_all.ipk
+Size: 37662
+SHA256sum: deacdf56479541e84bd72a43ae160e7e47d565dcb934ac890a677f02e2dae617
+Description:  Detailed information about the cellular modem
+
